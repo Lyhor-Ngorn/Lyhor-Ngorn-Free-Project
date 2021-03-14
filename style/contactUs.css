@@ -1,4 +1,6 @@
-
+body{
+    background: url('https://www.teahub.io/photos/full/27-271262_dark-blue-elegant-background.jpg');
+}
 select,
 input[type=text],
 input[type=number],
@@ -17,9 +19,7 @@ input[type=password]{
 p{
     color: white;
 }
-body{
-    background: url('https://www.teahub.io/photos/full/27-271262_dark-blue-elegant-background.jpg');
-}
+
 #submit{
     background: rgb(98, 175, 180);
     border: none;
@@ -63,11 +63,9 @@ form img{
     height: 40px;
     margin: 20px;
 }
-@media only screen and (max-width: 500px){
+@media (max-width: 500px){
     body{
         background: #000;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     #submit{
         background: rgb(98, 175, 180);
